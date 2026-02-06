@@ -60,33 +60,6 @@ finance-vue-project/
 └── README.md
 ```
 
-## 🎨 Komponen
-
-### App.vue
-Komponen utama yang mengatur state global dan logic bisnis:
-- Manajemen state transaksi
-- Computed properties untuk total & saldo
-- LocalStorage persistence
-
-### SummaryCard.vue
-Menampilkan kartu ringkasan (pemasukan, pengeluaran, saldo)
-
-### TransactionForm.vue
-Form untuk menambah transaksi baru dengan validasi
-
-### CategorySummary.vue
-Menampilkan ringkasan pengeluaran per kategori (diurutkan)
-
-### TransactionFilter.vue
-Tab filter untuk melihat semua/pemasukan/pengeluaran
-
-### TransactionList.vue
-Daftar transaksi dengan aksi delete
-
-## 💾 Data Persistence
-
-Data tersimpan di browser LocalStorage, jadi tidak akan hilang meskipun browser ditutup.
-
 ## 🛠️ Teknologi
 
 - Vue 3 (Composition API)
